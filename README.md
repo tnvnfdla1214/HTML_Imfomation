@@ -109,9 +109,32 @@
 <img src = "https://user-images.githubusercontent.com/48902047/152690388-32c788fb-1ac6-4d96-a8e5-acea0624ec1b.png">
 </div>
 
+1. form 태그로 묶어줍니다. 또한 action 뒤에 '#' 에는 주소를 정해주어 제출이란 버튼을 클릭시 해당하는 주소로 form 안의 정보들을 넘겨주게 됩니다. 그 다음 methed 는 보내는 방식을 선택하게 됩니다. 해당 예제는 get 방식이고 post 방식도 있습니다.(암호화의 차이)
+2. input 태그는 기본적으로 type이란 속성과 name 이란 속성을 가지게 됩니다. type은 text,password 등 을 가지게 되며 name은 유니크한 이름입니다. 나중에 서버로 갔을때 연결할 때 사용됩니다.
+3. 뿐만아니라 input 태그에는 size란 속성은 폭을 나타냅니다.
+4. textarea는 길게 입력할때 쓰입니다. 속성으로는 row와 col이 있는데 높이와 너비를 나타냅니다.
+5. select 태그는 안에 option이란 태그를 가지고 있습니다. 해당하는 option을 선택하게 됩니다. 속성으로는 multiple이란 속성으로 다중 선택이 가능하게 합니다.
+6. 버튼의 타입은 submit이란 이름으로 정해줍니다.
 
+<div align="center">
+<img src = "https://user-images.githubusercontent.com/48902047/152725444-b7faf951-7937-4987-8a67-ee655813c41c.png">
+</div>
 
+1. div 태그는 블록을 쌓듯이 개행이 없지만 하나씩 순차적으로 나옵니다.
+2. span 태그는 행이 바뀌어도 옆에 계속 나옵니다.
 
+## 4강
+### div를 이용한 레이아웃
+<div align="center">
+<img src = "https://user-images.githubusercontent.com/48902047/152725930-171edce5-0396-416c-ac15-77d46aad8f67.png">
+</div>
 
+위에서 학습하였던 table 태그는 많은 문제점을 가지고 있습니다. 현재에는 div 태그를 사용하고 있습니다.
 
+div 태그는 블록을 쌓듯이 하나의 블록에 원하는 정보를 묶에 사용하면 됩니다.
 
+### 시멘틱을 이용한 레이아웃
+<div align="center">
+<img src = "https://user-images.githubusercontent.com/48902047/152726410-54bdacc9-dfec-4b7c-b4df-d95cd1a53803.png">
+</div>
+시멘틱 태그는 div와 같은 기능을 갖습니다. 하지만 검색을 할때 좀더 빨리 검색엔진을 위해 header,nav,section,footer로 나누어 좀더 빨리 찾을 수 있게 해줍니다.
